@@ -19,3 +19,45 @@
   font-family: Inter;
   src: url(assets/fonts/static/Inter-Regular.ttf);
 }
+
+body {
+  background-color: var(--OffBlack);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  color: var(--White);
+  font-size: 14px;
+  text-align: center;
+}
+
+.wrapper {
+  width: 26%;
+  background-color: var(--DarkGrey);
+  border-radius: 0.7rem;
+  padding: 2.5rem;
+}
+
+img {
+  width: 100px;
+  display: block;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.name {
+  font-size: 25px;
+  margin-top: 2rem;
+}
+
+.country {
+  color: var(--Green);
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+.description {
+  margin-top: 2rem;
+  color: rgba(255, 255, 255, 0.7);
+}
