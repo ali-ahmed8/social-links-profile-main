@@ -61,3 +61,26 @@ img {
   margin-top: 2rem;
   color: rgba(255, 255, 255, 0.7);
 }
+
+.applications-links {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.applications-links a {
+  display: block;
+  text-decoration: none;
+  background-color: var(--Grey);
+  color: var(--White);
+  height: 40px;
+  border-radius: 0.4rem;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.applications-links a:active {
+  background-color: var(--Green);
+  color: var(--OffBlack);
+}
